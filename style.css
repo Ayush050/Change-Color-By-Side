@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
+body{
+    height: 100%;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: cornflowerblue;
+} 
+
+
+#card{ 
+    /* i have written another method of making the things in center */
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 410px;
+    background-color: white;
+    border-radius: 4px;
+    border: 2px solid black;
+}
